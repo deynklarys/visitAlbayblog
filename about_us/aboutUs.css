@@ -1,0 +1,506 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  @media screen and (max-width: 1920px) {
+    body{
+      height: 1170px;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+  
+  .aboutUs {
+    background: linear-gradient(90deg, 
+        #3482B3 50%, 
+        #003E7D 100%);
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    min-height: calc(100% - 20px);
+  }
+
+header{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3)20%, transparent 100%);
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 1%;
+  }
+  
+  .aboutUs .headerPart {
+  display: block;
+  position: relative;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3)20%, transparent 100%);
+  font-size: 20px;
+  color: #ffffff;
+  }
+  
+  .headerPart nav  {
+    display: flex;
+    align-items: center; 
+  } 
+  
+  .headerPart  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .headerPart .backarrow {
+    display: inline-block;
+    position: absolute;
+    width: 2%;
+    border-radius: 60%;
+    top: 42%;
+    left: 4%;
+  }
+  
+  .headerPart  a {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .headerPart  a.active {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+  }
+  
+  .headerPart .discover {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .headerPart .tourismlogo {
+    display: inline-block;
+    width: 50px;
+    margin-right: 80px;
+    border-radius: 60%;
+    background-color: rgba(217, 217, 217, 0.70);
+  }
+
+.container .mayonside {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    overflow: hidden;
+}
+
+.container .who-are-we h1 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 800%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98%;
+    right: 0;
+    top: 3%;
+    width: 60%;
+    text-align: center;
+}
+
+.container .who-are-we h6 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 98%;
+    width: 50%;
+    top: 25%;
+    right: 6%;
+    text-align: justify;
+}
+
+.members {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    right: 0;
+}
+
+.person1 .recbg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    top: 55%;
+}
+
+.person1 .recbar {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    top: 57%;
+    left: 15%;
+}
+
+.person1 .dp {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 62%;
+    left: 7.5%;
+}
+
+.person1 .name {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 88%;
+    left: 7.5%;
+    color: #000;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.person1 .block {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 91%;
+    left: 7.5%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.person2 .recbg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    top: 55%;
+    left: 30%;
+}
+
+.person2 .recbar {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    top: 57%;
+    left: 45%;
+}
+
+.person2 .dp {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 62%;
+    left: 37.5%;
+}
+
+.person2 .name {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 88%;
+    left: 37.5%;
+    color: #000;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.person2 .block {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 91%;
+    left: 37.5%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.person3 .recbg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    top: 55%;
+    left: 60%;
+}
+
+.person3 .recbar {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    top: 57%;
+    left: 75%;
+}
+
+.person3 .dp {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 62%;
+    left: 67.5%;
+}
+
+.person3 .name {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 88%;
+    left: 67.5%;
+    color: #000;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.person3 .block {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 91%;
+    left: 67.5%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.person4 .recbg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    top: 105%;
+    left: 15%;
+}
+
+.person4 .recbar {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    top: 107%;
+    left: 30%;
+}
+
+.person4 .dp {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 112%;
+    left: 22.5%;
+}
+
+.person4 .name {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 138%;
+    left: 22.5%;
+    color: #000;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.person4 .block {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 141%;
+    left: 22.5%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.person5 .recbg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 35%;
+    top: 105%;
+    left: 45%;
+}
+
+.person5 .recbar {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    top: 107%;
+    left: 60%;
+}
+
+.person5 .dp {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 112%;
+    left: 52.5%;
+}
+
+.person5 .name {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 138%;
+    left: 52.5%;
+    color: #000;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.person5 .block {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 20%;
+    top: 141%;
+    left: 52.5%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 0px 38.6px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica;
+    font-size: 90%;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+  footer {
+    position: relative;
+    font-size: 30px;
+    font-family: Helvetica;
+    color: #51511B;
+    font-weight: 700;
+    width: 100%;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  
+  footer .subtext {
+    position: absolute;
+    z-index: 2;
+    font-size: 70%;
+    font-family: Helvetica;
+    font-style: italic;
+    color: #827E61;
+    font-weight: 100;
+  }
+  
+  footer img {
+    width: auto;
+    height: 25px;
+    margin: 5px;
+  }
+  
+  footer .albaywebsite {
+    position: absolute;
+    bottom: -10%;
+    right: 3%;
+    z-index: 2;
+    width: 30%;
+    font-size: 80%;
+    font-weight: 100;
+    color: #51511B;
+    text-align: right;
+  }
+  
+  .albaywebsite a {
+    right: 0px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #51511B;
+  }
+
+  

@@ -1,0 +1,615 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+@media screen and (max-width: 1920px) {
+  body{
+    height: 3450px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+.lignonHills {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 165, 0, 0.0),
+    #F5C179 30%,
+    #546803  100%
+  );
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  min-height: calc(100% - 30px);
+}
+
+.topPart {
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.placeimg {
+  width: 100%; 
+  height: auto;
+}
+
+.topPart .placeimg img {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  object-fit: cover;
+}
+
+.placeName {
+display: block;
+position: absolute;
+z-index: 5;
+top: 0.5%;
+left: 5%;
+width: 50%;
+font-size: 1200%;
+color: #ffffff;
+text-shadow: 0px 0px 38px rgba(0, 0, 0, 0.27);
+font-family: Helvetica;
+line-height: 1;
+}
+
+.place {
+display: block;
+position: absolute;
+z-index: 6;
+top: 50%;
+left: 5%;
+color: #ffffff;
+text-shadow: 0px 0px 38px rgba(0, 0, 0, 0.27);
+font-family: Helvetica;
+width: 54.7%;
+height: 7%;
+border-radius: 39px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.60);
+}
+
+.location {
+display: block;
+position: absolute;
+z-index: 8;
+top: 50%;
+left: 6.5%;
+width: 4%;
+height: auto;
+}
+
+.placeLocation {
+display: block;
+position: absolute;
+z-index: 7;
+font-size: 300%;
+color: #2E3442;
+font-family: Helvetica;
+top: 47%;
+left: 11%;
+}
+
+.placeDescription {
+display: block;
+position: absolute;
+z-index: 5;
+top: 50%;
+left: 5%;
+width: 55%;
+height: 18%;
+border-radius: 39px;
+background: rgba(255, 255, 255, 0.80);
+box-shadow: 9.671px 3.224px 22.2px 0px rgba(0, 0, 0, 0.29);
+}
+
+.placeDescription h6 {
+color: #000000;
+text-shadow: 0px 0px 38px rgba(0, 0, 0, 0.27);
+font-family: Helvetica;
+font-size: 150%;
+font-style: italic;
+font-weight: 400;
+text-align: justify;
+padding-top: 4%;
+padding-left: 3%;
+padding-right: 3%;
+}
+
+header{
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3)20%, transparent 100%);
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 1%;
+}
+
+.lignonHills .headerPart {
+display: block;
+position: relative;
+z-index: 100;
+top: 0;
+width: 100%;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3)20%, transparent 100%);
+font-size: 20px;
+color: #ffffff; 
+}
+
+.headerPart nav  {
+  display: flex;
+  align-items: center; 
+} 
+
+.headerPart  nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.headerPart .backarrow {
+  display: inline-block;
+  position: absolute;
+  width: 2%;
+  border-radius: 60%;
+  top: 42%;
+  left: 4%;
+}
+
+.headerPart  a {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.headerPart  a.active {
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+
+.headerPart .discover {
+  display: inline-block;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.headerPart .tourismlogo {
+  display: inline-block;
+  width: 50px;
+  margin-right: 80px;
+  border-radius: 60%;
+  background-color: rgba(217, 217, 217, 0.70);
+}
+
+.description {
+display: flex;
+position: absolute;
+justify-content: flex-end;
+z-index: 8;
+background: linear-gradient(
+  to bottom,
+  rgba(32, 29, 250, 0) 0%, 
+  #F5C179 30%,
+  rgba(32, 29, 250, 0) 100% 
+);
+top: 100%;
+height: 130%;
+}
+
+.placeDes {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: relative;
+z-index: 9;
+width: 50%;
+height: 45%;
+top: 25%;
+right: -12%;
+background-color: white;
+border-radius: 50px;
+border: 2px solid #FFF;
+background: #ffffff;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.60);
+}
+
+.placeDes h6 {
+font-family: Helvetica;
+font-size: 200%;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+color: black;
+padding-left: 14%;
+padding-right: 3%;
+text-align: justify;
+}
+
+.images .placeimg1 {
+display: block;
+position: absolute;
+z-index: 10;
+top: 10%;
+left: 5%;
+border-radius: 10%;
+box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 0px 25px, 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+width: 45%;
+height: 50%;
+}
+
+.imgref1 {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  top: 55%;
+  left: 8%;
+  font-family: Helvetica;
+  font-size: 100%;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+
+.googleMap {
+display: flex;
+position: relative;
+z-index: 11;
+top: 64%;
+right: 7%;
+width: 16%;
+height: 3.5%;
+border-radius: 8px;
+background: #F05A22;
+box-shadow: 5px 5px 10px 2px rgba(240, 90, 34, 0.4);
+}
+
+.googleMap .map {
+display: block;
+position: absolute;
+font-family: Helvetica;
+font-size: 90%;
+font-style: normal;
+font-weight: 700;
+color: rgb(255, 255, 255);
+top: 28%;
+left: 5%;
+}
+
+a {
+text-decoration: none;
+}
+
+.googleMap img {
+display: block;
+position: absolute;
+width: 10%;
+top: 38%;
+left: 80%;
+}
+
+.description2 {
+display: block;
+position: absolute;
+z-index: 15;
+top: 215%;
+height: 100%;
+}
+
+.placeDes2 {
+display: flex;
+align-items: left;
+justify-content: center;
+flex-direction: column;
+position: relative;
+z-index: 9;
+width: 55%;
+height: 155%;
+top: 15%;
+left: 3%;
+background-color: white;
+border-radius: 50px;
+border: 2px solid #FFF;
+background: #ffffff;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.60);
+}
+
+.placeDes2 h3 {
+position: relative;
+font-family: Helvetica;
+font-size: 220%;
+font-style: italic;
+font-weight: 700;
+color: black;
+padding-left: 3%;
+padding-right: 15%;
+top: -2%;
+margin-top: 0;
+margin-bottom: 1%;
+}
+
+.placeDes2 h6 {
+position: relative;
+font-family: Helvetica;
+font-size: 220%;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+color: black;
+padding-left: 3%;
+padding-right: 13%;
+text-align: justify;
+margin: 0;
+}
+
+.images2 .placeimg2 {
+display: block;
+position: absolute;
+z-index: 10;
+top: -15%;
+left: 55%;
+border-radius: 10%;
+box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 0px 25px, 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+width: 40%;
+height: 55%;
+}
+
+.imgref2 {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  top: 35%;
+  left: 60%;
+  font-family: Helvetica;
+  font-size: 100%;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.images2 .placeimg3 {
+  display: block;
+  position: absolute;
+  z-index: 17;
+  top: 50%;
+  left: 55%;
+  border-radius: 10%;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 0px 25px, 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  height: 55%;
+  }
+
+.imgref3 {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  top: 100%;
+  left: 60%;
+  font-family: Helvetica;
+  font-size: 100%;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.images2 .placeimg4 {
+display: block;
+position: absolute;
+z-index: 17;
+top: 115%;
+left: 55%;
+border-radius: 10%;
+box-shadow: rgba(255, 255, 255, 0.8) 0px 0px 0px 25px, 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+width: 40%;
+height: 55%;
+}
+
+.imgref4 {
+display: block;
+position: absolute;
+z-index: 20;
+top: 165%;
+left: 60%;
+font-family: Helvetica;
+font-size: 100%;
+font-style: italic;
+font-weight: 400;
+color: rgb(255, 255, 255);
+}
+
+.review {
+display: block;
+position: absolute;
+z-index: 16;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 400%;
+height: 45%;
+width: 90%;
+border-radius: 59px;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.60); 
+background: white ;
+overflow: hidden;
+padding: 2%;
+}
+
+.reviewimg {
+display: block;
+position: absolute;
+z-index: 17;
+top: 10%;
+left: 2%;
+width: 5%;
+}
+
+h2 .revname {
+  font-family: Helvetica;
+}
+.revname{
+display: block;
+position: absolute;
+z-index: 10;
+top: 6%;
+left: 8%;
+color: #000;
+font-family: Helvetica;
+font-size: 150%;
+font-style: normal;
+font-weight: 700;
+}
+
+.revrole {
+display: block;
+position: absolute;
+z-index: 17;
+top: 19%;
+left: 8%;
+color: #000;
+font-family: Helvetica;
+font-size: 100%;
+font-style: italic;
+font-weight: 100;
+}
+
+.review h6 {
+display: block;
+position: absolute;
+z-index: 17;
+width: 50%;
+top: 15%;
+left: 8%;
+color: #000;
+font-family: Helvetica;
+font-size: 150%;
+font-style: normal;
+font-weight: 400;
+text-align: justify;
+}
+
+.revdate {
+display: block;
+position: absolute;
+z-index: 17;
+top: 90%;
+left: 8%;
+color: rgba(0, 0, 0, 0.40);
+font-family: Helvetica;
+font-size: 100%;
+font-style: italic;
+font-weight: 400;
+}
+
+.rating {
+display: flex;
+position: absolute;
+z-index: 17;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 35%;
+height: 100%;
+background: #ffffff;
+top: 0;
+right: 0;
+
+box-shadow: 0px 0px 16.2px 0px rgba(0, 0, 0, 0.47);
+}
+
+.rating ul {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+list-style-type: none;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+.rating img {
+display: block;
+position: relative;
+z-index: 18;
+width: 100px;
+margin: 10px;
+}
+
+.rating .rate {
+font-size: 400%;
+font-family: Helvetica;
+font-style: normal;
+color: #B07F42;
+font-family: Helvetica;
+font-weight: 700;
+margin: 0;
+}
+
+footer {
+  position: relative;
+  font-size: 30px;
+  font-family: Helvetica;
+  color: #51511B;
+  font-weight: 700;
+  width: 100%;
+  height: 2%;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.70);
+  padding: 10px;
+  margin: 10px;
+}
+
+
+footer .subtext {
+  position: absolute;
+  z-index: 2;
+  font-size: 70%;
+  font-family: Helvetica;
+  font-style: italic;
+  color: #827E61;
+  font-weight: 100;
+}
+
+footer img {
+  width: auto;
+  height: 25px;
+  margin: 5px;
+}
+
+footer .albaywebsite {
+  position: absolute;
+  bottom: 30%;
+  right: 3%;
+  z-index: 2;
+  width: 30%;
+  font-size: 80%;
+  font-weight: 100;
+  color: #51511B;
+  text-align: right;
+}
+
+.albaywebsite a {
+  right: 0px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #51511B;
+}

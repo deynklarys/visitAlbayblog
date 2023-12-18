@@ -1,0 +1,278 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  @media screen and (max-width: 1920px) {
+    body{
+      height: 4200px;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+  
+  .travelTips {
+    background: #F8E0C0;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    min-height: calc(100% - 20px);
+  }
+
+header{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3)20%, transparent 100%);
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 1%;
+  }
+  
+  .travelTips .headerPart {
+  display: block;
+  position: relative;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3)20%, transparent 100%);
+  font-size: 20px;
+  color: #ffffff;
+  }
+  
+  .headerPart nav  {
+    display: flex;
+    align-items: center; 
+  } 
+  
+  .headerPart  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .headerPart .backarrow {
+    display: inline-block;
+    position: absolute;
+    width: 2%;
+    border-radius: 60%;
+    top: 42%;
+    left: 4%;
+  }
+  
+  .headerPart  a {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .headerPart  a.active {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+  }
+  
+  .headerPart .discover {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  
+  .headerPart .tourismlogo {
+    display: inline-block;
+    width: 50px;
+    margin-right: 80px;
+    border-radius: 60%;
+    background-color: rgba(217, 217, 217, 0.70);
+  }
+
+
+.topPart {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.topPartImage {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+.topPart h1 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 15%;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 0px 18px rgba(0, 0, 0, 0.28);
+    font-family: Helvetica;
+    font-size: 1500%;
+    font-weight: 700;
+}
+
+.rec {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  fill: rgba(165, 165, 98, 1);
+  background-color: rgba(165, 165, 98, 0.75);
+  top: 90%;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center ;
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+
+}
+
+.rec p {
+  color: #FFF1F9;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 200%;
+  font-style: italic;
+  font-weight: 700;
+  width: 80%;
+}
+
+.tips {
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  top: 20%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.remember {
+  display: block;
+  position: absolute;
+  z-index: 6;
+  top: 125%;
+  width: 70%;
+  color: #000000;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 500%;
+  font-style: normal;
+  font-weight: 700;
+  width: 100%;
+}
+
+.whiterec {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  top: 145%;
+  width: 70%;
+  height: 385%;
+}
+
+.darkrec {
+  display: block;
+  position: absolute;
+  z-index: 6;
+  top: 215%;
+  width: 65%;
+  height: 310%;
+}
+
+.mayon {
+  display: block;
+  position: absolute;
+  z-index: 7;
+  top: 150%;
+  width: 65%;
+  height: auto;
+}
+
+.texttips {
+  display: block;
+  position: absolute;
+  z-index: 8;
+  top: 220%;
+  width: 60%;
+  height: 300%;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 190%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+
+
+
+  
+  footer {
+    position: relative;
+    font-size: 30px;
+    font-family: Helvetica;
+    color: #51511B;
+    font-weight: 700;
+    width: 100%;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  
+  footer .subtext {
+    position: absolute;
+    z-index: 2;
+    font-size: 70%;
+    font-family: Helvetica;
+    font-style: italic;
+    color: #827E61;
+    font-weight: 100;
+  }
+  
+  footer img {
+    width: auto;
+    height: 25px;
+    margin: 5px;
+  }
+  
+  footer .albaywebsite {
+    position: absolute;
+    bottom: -10%;
+    right: 3%;
+    z-index: 2;
+    width: 30%;
+    font-size: 80%;
+    font-weight: 100;
+    color: #51511B;
+    text-align: right;
+  }
+  
+  .albaywebsite a {
+    right: 0px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #51511B;
+  }
+
+  

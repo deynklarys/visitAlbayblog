@@ -1,0 +1,17 @@
+<svg width="65" height="78" viewBox="0 0 65 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SWM icons / duotone / location-1" filter="url(#filter0_d_206_585)">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M32.4998 66C43.7296 60 52.8332 49.2548 52.8332 36C52.8332 22.7452 43.7296 12 32.4998 12C21.27 12 12.1665 22.7452 12.1665 36C12.1665 49.2548 21.27 60 32.4998 66ZM32.1186 42.8298C36.9615 42.8298 40.8874 38.7146 40.8874 33.6383C40.8874 28.562 36.9615 24.4468 32.1186 24.4468C27.2758 24.4468 23.3499 28.562 23.3499 33.6383C23.3499 38.7146 27.2758 42.8298 32.1186 42.8298Z" fill="#2E3442"/>
+</g>
+<defs>
+<filter id="filter0_d_206_585" x="-10" y="-9" width="85" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_206_585"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_206_585" result="shape"/>
+</filter>
+</defs>
+</svg>
